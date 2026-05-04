@@ -7,5 +7,6 @@ for day in obj.iterweekdays():
 
 
 """
-Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli.
+iterweekdays()
+Atgriež datus ar nedēļas dienu numuriem vienai nedēļai. Pirmā iteratora vērtība sakrīt ar firstweekday īpašības vērtību.
 """

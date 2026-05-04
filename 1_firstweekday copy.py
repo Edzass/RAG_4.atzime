@@ -10,5 +10,6 @@ cal = calendar.Calendar(firstweekday=first_day)
 print(f"\nJūs norādījāt, nedēļas pirmā diena ir: {cal.getfirstweekday()}")
 
 """
+setfirstweekday(firstweekday)
 Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli.
 """
