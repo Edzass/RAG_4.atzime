@@ -8,6 +8,6 @@ for day in days:
 
 """
 itermonthdays4(year, month)
-Atgriež datus ar visām norādītā mēneša dienām, to nedēļas dienu numuriem un gadu, nedēļu numuriem. Tas iekļauj arī papildu dienas pirms un pēc mēneša. 
+Atgriež datus ar visām norādītā mēneša datumiem, to nedēļas dienu numuriem, nedēļu numuriem un gadu. Tas iekļauj arī papildu dienas pirms un pēc mēneša. 
 Ievades vērtība year nosaka, kuru gadu attēlot, month- kuru mēnesi attēlot.  
 """

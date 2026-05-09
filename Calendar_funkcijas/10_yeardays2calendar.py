@@ -13,5 +13,6 @@ print(obj.yeardays2calendar(year, 3))
 
 """
 yeardays2calendar(year, width=3)
-Atgriež iteratoru ar datiem par katru mēnesi, kur katrs mēnesis ir saraksts ar nedēļām, un katra nedēļa ir saraksts ar dienām. Katrs datums tiek attēlots kā tuple, kur pirmais elements ir dienas numurs, otrais elements ir nedēļas dienas numurs (no 0 līdz 6), un trešais elements ir gads. Dienas, kas pieder iepriekšējam vai nākamajam mēnesim, tiek attēlotas kā (0, 0, year).
+Atgriež datus par katru mēnesi, kur katrs mēnesis ir saraksts ar nedēļām. Pirmais  atgrieztais skaitlis ir datums, otrais- nedēļas dienas numurs (0-6). Vietās, kur datuma nummurs ir 0, tiek attēlotas dienas pirms un pēc mēneša.
+Ievades vērtība year nosaka, kuru gadu attēlot. Ievades vērtība width nosaka, cik mēnešu jāiekļauj katrā rindiņā kalendārā. (Noklusējuma vērtība ir 3.)
 """

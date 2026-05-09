@@ -14,5 +14,6 @@ print(obj.yeardatescalendar(year))
 
 """ 
 yeardatescalendar(year, width=3)
-Atgriež iteratoru ar datiem par katru mēnesi, kur katrs mēnesis ir saraksts ar nedēļām, un katra nedēļa ir saraksts ar dienām. Katrs datums tiek attēlots kā datetime.date objekts. Dienas, kas pieder iepriekšējam vai nākamajam mēnesim, tiek attēlotas kā datetime.date objekts ar gadu, mēnesi un dienu iestatītu uz 1.
+Atgriež datus par katru mēnesi gadā. Tiek atgriezts gads, mēnesis un datums. Teik iekļautas arī dienas pirms un pēc mēneša..
+Ievades vērtība year nosaka, kuru gadu attēlot. Ievades vērtība width nosaka, cik mēnešu jāiekļauj katrā rindkopā. (Noklusējuma vērtība ir 3.)
 """

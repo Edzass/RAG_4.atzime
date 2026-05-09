@@ -8,5 +8,5 @@ for day in obj.iterweekdays():
 
 """
 iterweekdays()
-Atgriež datus ar nedēļas dienu numuriem vienai nedēļai. Pirmā vērtība sakrīt ar firstweekday īpašības vērtību.
+Atgriež iteratoru ar nedēļas dienu numuriem vienai nedēļai. Pirmā vērtība sakrīt ar firstweekday īpašības vērtību.
 """

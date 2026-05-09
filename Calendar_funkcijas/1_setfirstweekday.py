@@ -2,14 +2,14 @@ import calendar
 
 
 print("Kāda ir pirmā nedēļas diena?")
-print("Pirmdiena(1) ; Otrdiena(2) ; Trešdiena(3) ; Ceturtdiena(4) ; Piektdiena(5) ; Sestdiena(6) ; Svētdiena(7)")
+print("Pirmdiena(0) ; Otrdiena(1) ; Trešdiena(2) ; Ceturtdiena(3) ; Piektdiena(4) ; Sestdiena(5) ; Svētdiena(6)")
 
-first_day = int(input("Ievadi numuru: "))
+first_day = 0
 cal = calendar.Calendar(firstweekday=first_day)
 
 print(f"\nJūs norādījāt, nedēļas pirmā diena ir: {cal.getfirstweekday()}")
 
 """
 setfirstweekday(firstweekday)
-Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli.
+Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli. (0 - pirmdiena, 6 - svētdiena)
 """
