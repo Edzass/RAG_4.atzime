@@ -1,8 +1,9 @@
-
+#Biblotekas importēšana
 import tkinter as tk
 import io
 import sys
 
+#Vārdnīcas definēšana
 bibloteka = {
     "1": "1_setfirstweekday.py", "2": "2_iterweekdays.py","3": "3_itermonthdates.py",
     "4": "4_yeardayscalendar.py", "5": "5_prmonth.py","6": "6_formatyear.py",
@@ -11,11 +12,13 @@ bibloteka = {
      "13": "13_pryear.py", "14": "14_isleap.py", "15": "15_weekheader.py"
 }
 
+#Galvenā funkcija
 def palaist():
 
     output = io.StringIO()
     sys.stdout = output
 
+    #Atbilstošā faila izvēle un izpilde
     with open("Calendar_funkcijas/" + bibloteka[ievade.get()], encoding="utf-8") as file:
         exec(file.read())
 
@@ -28,15 +31,19 @@ logs = tk.Tk()
 logs.title("Calendar_funkcijas")
 logs.geometry("700x500")
 
+#Ievades lauka  izveide
 tk.Label(logs, text="Ievadi skaitli no 1 līdz 15").pack()
 
 ievade = tk.Entry(logs)
 ievade.pack()
 
+#Pogas izveide
 poga = tk.Button(logs, text="Palaist", command=palaist)
 poga.pack()
 
+#Teksta lauka izveide
 teksts = tk.Text(logs)
 teksts.pack()
 
+#Funkcijas atkārtota izpilde
 logs.mainloop()
