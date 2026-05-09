@@ -1,5 +1,4 @@
-# Python program to demonstrate working
-# of yeardays2calendar() method
+
 
 # importing calendar module
 import calendar
@@ -10,7 +9,7 @@ year = 2016
 # default value of width is 3
 
 # printing with yeardays2calendar
-print(obj.yeardays2calendar(year))
+print(obj.yeardays2calendar(year, 3))
 
 """
 yeardays2calendar(year, width=3)
