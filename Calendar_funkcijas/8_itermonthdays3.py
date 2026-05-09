@@ -15,6 +15,6 @@ print()
 
 """   
 itermonthdays3(year, month)
-Atgriež datus ar visām izvēlētajām mēneša dienām, mēnesi un gadu. Tiek iekļautas arī papildu dienas pirms un pēc mēneša, lai izveidotu pilnas nedēļas.
+Atgriež datus ar visām izvēlētā mēneša dienām, mēnesi un gadu. Tiek iekļautas arī papildu dienas pirms un pēc mēneša, lai izveidotu pilnas nedēļas.
 Ievades vērtība year nosaka, kuru gadu attēlot. Ievades vērtība month nosaka mēnesi attēlot, kuru attēlot.
 """

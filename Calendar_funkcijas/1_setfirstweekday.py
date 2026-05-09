@@ -11,5 +11,5 @@ print(f"\nJūs norādījāt, nedēļas pirmā diena ir: {cal.getfirstweekday()}"
 
 """
 setfirstweekday(firstweekday)
-Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli. (0 - pirmdiena, 6 - svētdiena)
+Funkcija ļauj ievadīt un saglabāt , pretēji - izvadīt, nedēļas pirmo dienu kā skaitli. Nedēļas dienu numuri ir attēloti 0 (pirmdiena), 1(otrdiena), 2(trešdiena), 3(ceturtdiena), 4(piektdiena), 5(sestdiena), 6(svētdiena).
 """
