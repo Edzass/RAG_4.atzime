@@ -1,4 +1,4 @@
-
+#Biblotekas importēšana
 import calendar
 
 obj = calendar.Calendar(firstweekday = 2)

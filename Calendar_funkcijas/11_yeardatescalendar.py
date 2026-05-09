@@ -1,7 +1,4 @@
-# Python program to demonstrate working
-# of yeardatescalendar() method
-
-# importing calendar module
+#Biblotekas importēšana
 import calendar
 
 obj = calendar.Calendar()

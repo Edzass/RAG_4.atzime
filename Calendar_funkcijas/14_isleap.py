@@ -1,3 +1,4 @@
+#Biblotekas importēšana
 import calendar
 
 print(calendar.isleap(2024))

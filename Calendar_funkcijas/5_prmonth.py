@@ -1,11 +1,10 @@
-
+#Biblotekas importēšana
 import calendar
 
 text_cal = calendar.TextCalendar(firstweekday = 0)
 
 year = 2018
 month = 9
-
 
 print(text_cal.prmonth(year, month))
 

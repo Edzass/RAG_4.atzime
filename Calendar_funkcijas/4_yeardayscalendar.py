@@ -1,9 +1,9 @@
-
+#Biblotekas importēšana
 import calendar
 
 obj = calendar.Calendar()
 
-# iterating with yeardayscalendar
+#Iteratora izsaukšana
 for day in obj.yeardayscalendar(2018, 1):
     print(day)
 

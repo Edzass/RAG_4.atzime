@@ -1,6 +1,4 @@
-
-
-# importing calendar module
+#Biblotekas importēšana
 import calendar
 
 obj = calendar.Calendar()

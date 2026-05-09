@@ -1,5 +1,8 @@
+#Biblotekas importēšana
 import calendar
+
 tc= calendar.TextCalendar(firstweekday=0)
+
 print(tc.pryear(2016, 5))
 
 """

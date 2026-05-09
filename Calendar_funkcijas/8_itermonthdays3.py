@@ -1,13 +1,11 @@
-# Python program to illustrate the 
-# use of itermonthdays3() method
-
-# import class
+#Biblotekas importēšana
 import calendar
 
 cal = calendar.Calendar(firstweekday = 1)
 year = 2026
 month = 9
 
+#Iteratora izsaukšana
 for i in cal.itermonthdays3(year, month):
     print(i)
 print()

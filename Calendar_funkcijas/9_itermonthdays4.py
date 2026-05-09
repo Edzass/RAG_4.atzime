@@ -1,8 +1,10 @@
+#Biblotekas importēšana
 import calendar
 
 cal = calendar.Calendar()
 days = cal.itermonthdays4(2022, 2)
 
+#Iteratora izsaukšana
 for day in days:
     print(day)
 

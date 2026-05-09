@@ -1,6 +1,4 @@
-# Python program to demonstrate working of formatmonth() method
-
-# importing calendar module
+#Biblotekas importēšana
 import calendar
 
 text_cal = calendar.HTMLCalendar(firstweekday = 0)

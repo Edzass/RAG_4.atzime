@@ -1,7 +1,9 @@
+#Biblotekas importēšana
 import calendar
 
 obj = calendar.Calendar(firstweekday = 0)
 
+#Iteratora izsaukšana
 for day in obj.iterweekdays():
     print(day)
 

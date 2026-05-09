@@ -7,6 +7,8 @@ Pēc noklusējuma iebūvēta Python— nav nepieciešama papildu instalēšana; 
 Bibliotēkas ierobežojumi:
 Ierobežotas dizaina un pielāgošanas iespējas, jo īpaši teksta formātā; sarežģītākiem datumu aprēķiniem nepieciešama datetime bibliotēka; ierobežotas iespējas darbam ar laika joslām; neatbalsta automātisku sasaisti "vai sinhronizāciju ar ārējiem servisiem.
 
+Funkciju piemēri ir ņemti no vietnes https://www.geeksforgeeks.org/ un https://www.w3resource.com/.
+
 FUNKCIJU SKAIDROJUMI:
 
 setfirstweekday(firstweekday)

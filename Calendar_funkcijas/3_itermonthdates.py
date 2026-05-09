@@ -1,8 +1,9 @@
-
+#Biblotekas importēšana
 from calendar import Calendar
 
 obj = Calendar()
 
+#Iteratora izsaukšana
 for day in obj.itermonthdates(2018, 9):
     print(day)
 

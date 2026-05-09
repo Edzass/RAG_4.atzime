@@ -1,12 +1,17 @@
+#Biblotekas importēšana
 import calendar
 
 
 print("Kāda ir pirmā nedēļas diena?")
 print("Pirmdiena(0) ; Otrdiena(1) ; Trešdiena(2) ; Ceturtdiena(3) ; Piektdiena(4) ; Sestdiena(5) ; Svētdiena(6)")
 
+#Mainīgā vērtības ievade
 first_day = 0
+
+#Pirmās nedēļas dienas vērtības iestatīšana
 cal = calendar.Calendar(firstweekday=first_day)
 
+#Pirmās nedēļas dienas vērtības izvade
 print(f"\nJūs norādījāt, nedēļas pirmā diena ir: {cal.getfirstweekday()}")
 
 """
